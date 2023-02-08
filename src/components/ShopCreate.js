@@ -16,7 +16,7 @@ function ShopCreate(props){
 
     return (
         <div className='shop-create'>
-            <h3>Add a grocery item</h3>
+            <h1>Add A Grocery Item</h1>
             <form onSubmit={onHandleSubmit}>
                 <label>Grocery Name</label>
                 <input className='input' value={item} onChange={onHandleChange}/>

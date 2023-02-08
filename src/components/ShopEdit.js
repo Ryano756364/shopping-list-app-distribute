@@ -18,7 +18,7 @@ function ShopEdit({item, onSubmit}){
         <form className='shop-edit' onSubmit={handleSaveName} >
             <label>Grocery Name</label>
             <input className='input' value={name} onChange={handleNameChange}/>
-            <button className='button is-primary'>
+            <button className='button'>
                 Save
             </button>
         </form>

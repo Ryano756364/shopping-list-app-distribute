@@ -8,17 +8,17 @@
   border: 1px solid rgb(0, 0, 0);
 }
 
-h3{
-  font-size: 3rem;
-}
-
 form{
   display: flex;
   flex-direction: column;
 }
 
-label {
-  font-size: 2.5rem;
+.shop-create h1{
+  text-transform: uppercase;
+}
+
+.shop-create label {
+  font-size: 2rem;
   color: white;
 }
 
@@ -28,9 +28,16 @@ label {
   border-radius: .4rem;
 }
 
-.button{
+.shop-create label,
+.input {
+  margin-bottom: 1.5rem;
+}
+
+.shop-create .button{
   max-width: 33%;
   font-size: 2.5rem;
   padding: .5rem;
   border-radius: .4rem;
+  cursor: pointer;
+  background-color: white;
 }

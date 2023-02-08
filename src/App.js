@@ -1,4 +1,3 @@
-import axios from 'axios';
 import {useState} from 'react';
 import './App.css';
 import ShopCreate from './components/ShopCreate';
@@ -41,8 +40,10 @@ function App(){
   
   return (
     <div className='app'>
-      <h1>Grocery Shopping List</h1>
-      <h2>...with random image generator</h2>
+      <section className='title'>
+        <h1>Grocery Shopping List</h1>
+        <h2>...with random image generator</h2>
+      </section>
       <ShopList onEdit={editItemById} shop={shop} onDelete={deleteItemById}/>
       <ShopCreate onCreate={onCreateShop}/>
     </div>

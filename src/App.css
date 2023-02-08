@@ -1,8 +1,10 @@
 html {
-  background-color: #b5eab9;
+  background-color: #dff2e1;
   font-size: 62.5%;  /* 10px setup strategy for global font*/
   max-width: 100rem;
   font-family: 'Unbounded', cursive;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .app {
@@ -11,4 +13,21 @@ html {
 
 button {
   font-family: 'Unbounded', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+}
+
+.title{
+  padding: 1rem;
+  background-color: green;
+  border-radius: .4rem;
+  box-shadow: 0 0 .3rem black;
+  border: 1px solid rgb(0, 0, 0);
 }
