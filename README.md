@@ -1,6 +1,7 @@
 # Shopping List Application
+Live site can be found here! https://shopping-list-app-distribute.web.app/
 
-## Built using React
+## Built using React / Hosted on Google Firebase
 ` Instructions `
 
 ` Enter a an item to a shopping list then press enter `
