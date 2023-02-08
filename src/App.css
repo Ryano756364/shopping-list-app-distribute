@@ -30,4 +30,33 @@ h2 {
   border-radius: .4rem;
   box-shadow: 0 0 .3rem black;
   border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  
+}
+
+
+@media screen and (max-width: 900px) {
+	html{
+    max-width: 75rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    max-width: 55rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    max-width: 40rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.33rem;
+  }
 }

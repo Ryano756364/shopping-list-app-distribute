@@ -11,6 +11,16 @@
   background-color: white;
   position: relative;
 }
+@media screen and (max-width: 600px) {
+  .shop-show{
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shop-show{
+    margin-bottom: 1.75rem;
+  }
+}
 
 .delete {
   position: absolute;

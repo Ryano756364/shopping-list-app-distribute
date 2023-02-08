@@ -16,10 +16,20 @@ form{
 .shop-create h1{
   text-transform: uppercase;
 }
+@media screen and (max-width: 900px) {
+  .shop-create h1{
+    font-size: 2rem;
+  }
+}
 
 .shop-create label {
   font-size: 2rem;
   color: white;
+}
+@media screen and (max-width: 900px) {
+  .shop-create label {
+    font-size: 1.75rem;
+  }
 }
 
 .input{
@@ -40,4 +50,11 @@ form{
   border-radius: .4rem;
   cursor: pointer;
   background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .shop-create .button {
+    font-size: 1.75rem;
+    max-width: 20%;
+  }
 }
