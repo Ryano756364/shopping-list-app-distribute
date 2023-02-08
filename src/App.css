@@ -1,0 +1,14 @@
+html {
+  background-color: #b5eab9;
+  font-size: 62.5%;  /* 10px setup strategy for global font*/
+  max-width: 100rem;
+  font-family: 'Unbounded', cursive;
+}
+
+.app {
+  padding: .5rem;
+}
+
+button {
+  font-family: 'Unbounded', cursive;
+}
